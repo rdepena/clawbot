@@ -1,0 +1,30 @@
+{
+  "name": "clawbot",
+  "version": "0.0.0",
+  "description": "Robot with a claw",
+  "main": "rover.js",
+  "dependencies": {
+    "dualshock-controller": "~0.6.0",
+    "johnny-five": "~0.7.18",
+    "grunt": "~0.4.2",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-contrib-jshint": "~0.8.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rdepena/clawbot.git"
+  },
+  "keywords": [
+    "nodebot"
+  ],
+  "author": "rdepena",
+  "license": "mit",
+  "bugs": {
+    "url": "https://github.com/rdepena/clawbot/issues"
+  },
+  "homepage": "https://github.com/rdepena/clawbot"
+}
